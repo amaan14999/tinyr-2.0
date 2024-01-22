@@ -62,7 +62,7 @@ app.get("/:shorturlid", function (request, response) {
   // Your existing logic for redirecting short URLs
   let shorturlid = request.params.shorturlid;
   let sql = `SELECT * FROM links WHERE shorturlid='${shorturlid}' LIMIT 1`;
-  console.log(shorturlid);
+  // console.log(shorturlid);
   con.query(sql, function (error, result) {
     if (error) {
       response.status(500).json({
