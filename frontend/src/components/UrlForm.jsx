@@ -57,7 +57,7 @@ const UrlForm = () => {
         onChange={(e) => setLongUrl(e.target.value)}
       />
 
-      <button onClick={handleSubmit}>Create Short URL</button>
+      <button onClick={handleSubmit}>Create Short URL 👾</button>
     </div>
   );
 };

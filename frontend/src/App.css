@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  background-color: #242424;
+  background-color: #fff;
 }
 .App {
   margin: 0 auto;
@@ -10,7 +10,7 @@
 h1 {
   text-align: center;
   margin: 0;
-  color: #fff !important;
+  color: #646cff !important;
   margin-top: 20px;
   /* font-size: 2rem !important; */
   font-size: 3.5rem;

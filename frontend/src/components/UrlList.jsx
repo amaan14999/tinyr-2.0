@@ -36,7 +36,7 @@ const UrlList = () => {
   return (
     <div className="list">
       <h2>Shorten Links</h2>
-      <Table responsive="lg" striped bordered>
+      <Table responsive="lg" bordered>
         <thead>
           <tr>
             <th>Long URL</th>

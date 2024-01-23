@@ -3,16 +3,12 @@ h2 {
 }
 .table td,
 th {
-  background-color: #242424 !important;
-  color: #fff !important;
-  border-radius: 20px !important;
-}
-.table {
-  border-radius: 20px !important;
+  background-color: #f6f6f6 !important;
 }
 
 a {
   font-weight: 500;
   color: #646cff !important;
   text-decoration: inherit !important;
+  background-color: inherit !important;
 }

@@ -9,16 +9,15 @@ a:hover {
 
 button {
   border-radius: 8px;
-  color: #fff;
+  color: #000;
   border: 2px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  background-color: #242424;
+  background-color: #e2e2e2;
   border-radius: 10px !important;
   margin: 0.5rem !important;
 }
@@ -31,8 +30,8 @@ button:focus-visible {
 }
 label {
   font-size: 1.2rem;
-  color: #fff;
-  background-color: #1a1a1a;
+  color: #000;
+  background-color: #f6f6f6;
   margin: 0.5rem !important;
 }
 input {
@@ -42,12 +41,12 @@ input {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #f6f6f6;
   cursor: pointer;
   transition: border-color 0.25s;
   border-color: #646cff;
   margin: 0.5rem !important;
-  color: #fff;
+  color: #000;
 }
 input:focus {
   border-color: 4px #fff;
@@ -57,7 +56,7 @@ input:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1a1a1a;
+  background-color: #f6f6f6;
   padding: 40px;
   border-radius: 20px;
   flex-wrap: wrap;
