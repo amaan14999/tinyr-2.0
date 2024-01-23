@@ -47,19 +47,16 @@ const UrlForm = () => {
 
   return (
     <div className="form">
-      <div className="form-element">
-        <label htmlFor="longurl">Enter Link</label>
-        <input
-          type="text"
-          id="longurl"
-          placeholder="Enter Long URL here"
-          value={longUrl}
-          onChange={(e) => setLongUrl(e.target.value)}
-        />
-      </div>
-      <div className="form-element">
-        <button onClick={handleSubmit}>Create Short URL</button>
-      </div>
+      <label htmlFor="longurl">Shorten a long url 🔗</label>
+      <input
+        type="text"
+        id="longurl"
+        placeholder="Enter Long URL here"
+        value={longUrl}
+        onChange={(e) => setLongUrl(e.target.value)}
+      />
+
+      <button onClick={handleSubmit}>Create Short URL</button>
     </div>
   );
 };
