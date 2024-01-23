@@ -1,0 +1,18 @@
+h2 {
+  color: #fff !important;
+}
+.table td,
+th {
+  background-color: #242424 !important;
+  color: #fff !important;
+  border-radius: 20px !important;
+}
+.table {
+  border-radius: 20px !important;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff !important;
+  text-decoration: inherit !important;
+}

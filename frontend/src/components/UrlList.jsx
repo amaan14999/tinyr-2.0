@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
-
+import Table from "react-bootstrap/Table";
 import { UrlContext } from "../context/UrlContext";
+import "./UrlList.css";
 
 const UrlList = () => {
   const { urlData, addUrl } = useContext(UrlContext);
@@ -35,7 +36,7 @@ const UrlList = () => {
   return (
     <div className="list">
       <h2>Shorten Links</h2>
-      <table>
+      <Table responsive="lg" striped bordered>
         <thead>
           <tr>
             <th>Long URL</th>
@@ -60,7 +61,7 @@ const UrlList = () => {
             </tr>
           ))}
         </tbody>
-      </table>
+      </Table>
     </div>
   );
 };
