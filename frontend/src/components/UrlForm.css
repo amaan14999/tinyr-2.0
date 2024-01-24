@@ -10,7 +10,7 @@ a:hover {
 button {
   border-radius: 8px;
   color: #000;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -36,7 +36,7 @@ label {
 }
 input {
   border-radius: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #646cff;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -44,9 +44,13 @@ input {
   background-color: #f6f6f6;
   cursor: pointer;
   transition: border-color 0.25s;
-  border-color: #646cff;
   margin: 0.5rem !important;
   color: #000;
+  background-color: #fff;
+}
+input:focus {
+  outline: #646cff !important;
+  border: 3px solid #646cff !important;
 }
 
 .form {
