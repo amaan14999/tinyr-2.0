@@ -1,3 +1,9 @@
+![tinyr-2.0](https://socialify.git.ci/amaan14999/tinyr-2.0/image?font=Bitter&language=1&name=1&owner=1&pattern=Plus&theme=Dark)
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
 # Tinyr 2.0 - URL Shortener
 
 Tinyr is a simple and efficient URL shortener that allows users to convert long URLs into shorter, more manageable links. It provides a user-friendly web interface for URL input, validation, shortening, and tracking.
